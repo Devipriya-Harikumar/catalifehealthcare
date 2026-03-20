@@ -1,5 +1,5 @@
 {
-  "name": "Website Sitemap and Layout",
+  "name": "website-sitemap-and-layout",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -49,10 +49,15 @@
   "devDependencies": {
     "@types/node": "^20.10.0",
     "@vitejs/plugin-react-swc": "^3.10.2",
+    "gh-pages": "^6.1.1",
     "vite": "6.3.5"
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
-  }
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "homepage": "https://devipriya-harikumar.github.io/catalifehealthcare"
 }
