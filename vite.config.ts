@@ -6,7 +6,7 @@
   export default defineConfig({
     // Set the base path for GitHub Pages
     // Replace 'YOUR_REPO_NAME' with your actual repository name
-    base: '/YOUR_REPO_NAME/',
+    base: '/catalifehealthcare/',
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
